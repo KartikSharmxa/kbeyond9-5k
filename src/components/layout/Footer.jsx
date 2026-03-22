@@ -63,9 +63,9 @@ const Footer = () => {
           transition={{ duration: 4, repeat: Infinity }}
           className="text-center"
         >
-          <p className="sora-font text-[10px] uppercase tracking-[0.3em] text-gray-200">
+          {/* <p className="sora-font text-[10px] uppercase tracking-[0.3em] text-gray-200">
             Kabir Kapoor
-          </p>
+          </p> */}
         </motion.div>
       </motion.div>
     </footer>
