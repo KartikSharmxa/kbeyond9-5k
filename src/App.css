@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Sora:wght@100..800&display=swap');
+
+.lora-font{
+ font-family: "Lora", serif;
+}
+
+.sora-font{
+  font-family: "Sora", serif;
+}
+
+html, body {
+  background-color: #3E2723;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+
+}
+
+.butter-text{
+  color: #FFEDAC;
+}
+
+.brown-heading{
+  color:#FFFFFF;
+}
+.brown-subheading{
+  color: #BC986A ;
+}
+.brown-text{
+  
+  color: #F3F3F3;
+}
+
+.bg-butter-card{
+  background-color: #fffc;
+}
+
+.butter-btn {
+  background-color: #FFEDAC;
+  /* color: #3E2723; */
+  font-weight: 500;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+transition: transform 0.2s ease-in-out;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+}
+
+
+
+
+.butter-btn:hover {
+  background-color: #f9dc76;
+   transform: scale(0.9);
+   /* color: white; */
+}
+
+
+/* 1. Background Class */
+.bg-butter {
+    background-color: #FFEDAC; 
+}
+
+/* 2. Primary Text (Deep Chocolate Brown) - Sabse best contrast headings ke liye */
+.text-butter-dark {
+    color: #2D221C;
+}
+
+/* 3. Secondary Text (Muted Earthy Brown) - Descriptions aur paragraph ke liye */
+.text-butter-muted {
+    color: #5D4B40;
+}
+
+/* 4. Accent Color (Deep Amber/Orange) - Highlights, icons ya arrow ke liye */
+.text-butter-accent {
+    color: #D97706;
+}
+
+
+
+
+
+
+
+/* Custom Pagination Styling */
+.custom-pagination-dots {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  width: auto !important;
+  position: relative !important;
+}
+
+.custom-pagination-dots .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background: #000 !important;
+  opacity: 0.2;
+  margin: 0 4px !important;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.custom-pagination-dots .swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+}
+
+/* Background Texture Effect  */
+.section_home-testimonials {
+  background-image: url('https://www.transparenttextures.com/patterns/sandpaper.png');
+}
+
+
+/*  swiper vedios */
+.mySwiper {
+  padding: 20px 0;
+ 
+}
+
+.launch-video {
+   margin-bottom: 60px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+
+
+.bounce-soft {
+  display: inline-block;
+  animation: softBounce 1.2s ease infinite;
+}
+
+
+
+@keyframes softBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-8px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  70% {
+    transform: translateY(-4px);
+  }
+}
+
+
+
+
+
+
+
+.skillClass{
+    
+    
+}
